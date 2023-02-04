@@ -1,0 +1,29 @@
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#a{
+   background-color: yellow;
+            padding: 20px;
+            margin: 10px;
+            order: 4;
+}
+#b{
+   background-color: black;
+            padding: 20px;
+            margin: 10px;
+            order: 3;
+}
+#c{
+   background-color: deeppink;
+            padding: 20px;
+            margin: 10px;
+            order: 2;
+}
+#d{
+   background-color: olive;
+            padding: 20px;
+            margin: 10px;
+            order: 1;
+}
