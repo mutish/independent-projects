@@ -14,6 +14,8 @@
 
 
 
+
+
     <style>
         .flex-container{
   display: flex;
@@ -23,60 +25,63 @@
 }
 
 #a{
-   background-color: yellow;
-            padding: 20px;
+
+            padding: 5px;
             margin: 10px;
 }
 
 #b{
-   background-color: black;
-            padding: 20px;
+
+            padding: 5px;
             margin: 10px;
 }
 
 #c{
-   background-color: deeppink;
-            padding: 20px;
+
+            padding: 5px;
             margin: 10px;
 }
 
 #d{
-   background-color: olive;
-            padding: 20px;
+            padding: 5px;
+            margin: 10px;
+}
+#e{
+
+            padding: 5px;
+            margin: 10px;
+}
+        #f{
+
+            padding: 5px;
+            margin: 10px;
+}
+        #g{
+
+            padding: 5px;
             margin: 10px;
 }
 
-#one{
-    background-color: red;
-}
-#two{
-    background-color: orange;
-}
-#three{
-    background-color: green;
-}
-#four{
-    background-color: yellow;
-}
-#five{
-    background-color: black;
-}
-#six{
-    background-color: purple;
-}
+
+
+
+
+
     </style>
+    <link rel="stylesheet" href="css/fontawesome/fontawesome-free-6.2.1-web/css/all.css">
 
 </head>
 <body>
+
 <!--grid-->
-<div class=container-fluid id="one">
+<div class= "mt-4 p-5"  id="one">
     <div class="row">
 <!--        nav bar-->
         <div class="col-sm col-md col-lg col-xl">
             <nav class="navbar navbar-expand-sm">
                 <div class="container-fluid">
                     <a class=navbar-brand href="#">
-                        <img src="assets/me.png" style="width: 60px" class="rounded-pill"/>
+                        <img src="assets/WIN_20230129_12_59_25_Pro.jpg" style="width: 120px" class="rounded-pill"/>
                     </a>
 
                      <ul class="navbar-nav">
@@ -114,12 +119,10 @@
   <p>I am currently a student at eMobilis Institute <br>
       pursuing a Full Stack Development Course.</p>
 </div>
-
-<footer class="card-footer">
-  <h5>Footer</h5>
-</footer>
+ <a href="#" class="btn btn-primary">download resume</a>
 
 </div>
+
         </div>
 
 
@@ -133,33 +136,153 @@
 <div class="card-body">
   <p>My name is Mutinda Stacey Nduku. <br>
       I am 18 years old. <br>
-      I am a Kenyan citizen and I currently reside In Machakos county. <br>
+      I am a Kenyan citizen. <br>
+      I currently reside in Machakos county. <br>
 
   </p>
 </div>
+            <a href="#" class="btn btn-primary">download resume</a>
 
-<footer class="card-footer">
-  <h5>Footer</h5>
-</footer>
 
 </div>
 
     </div>
-    <div id="c">c </div>
-    <div id="d">d</div>
+
+    <div id="c">
+ <div class="card">
+
+<header class="card-header">
+  <h1>Referees</h1>
+</header>
+<!--check on address references-->
+<div class="card-body">
+  <p>the following are the referees: <br>
+      Margaret Macharia <br>
+      Modcom Institute of Technology. <br>
+      P.O Box 43-90145 <br>
+      Nairobi. <br>
+      Email: <a href="magiemash@gmail.com">magiemash@gmail.com</a>  <br>
+      tel: 0712674535 <br>
+
+  </p>
+</div>
+
+</div>
+
+    </div>
+
+
 </div>
 
 <!--skills-->
-<div id="three">3</div>
+<div id="three">
+    <div class="card">
+        <div class="card-body">
+            <p>I am passionate about the <br>
+            world of the tech. <br>
+            I am willing to learn from other <br>
+            great Tech Innovators <br>
+            and the make the world <br>
+            a better place with tech. <br></p>
+
+        </div>
+
+    </div>
+</div>
 
 <!--hobbies-->
-<div id="four">4</div>
+<div class="flex-container" id="four">
+<h4> <i>My Hobbies</i>
+    </h4>
+             <div class="card"  id="e">
+                 <div class="card-body">
+                     <p><b>Swimming</b> <br>
+                         I was part of the swimming team <br>
+                         in my high school <br>
+                         and scooped the gold medal. <br>
+                     </p>
+                 </div>
+             </div>
+
+                  <div class="card"  id="f">
+                 <div class="card-body">
+                     <p> <b> Artist</b> <br>
+                         I love Drawing <br>
+                         and make sketches <br>
+                         that are out of <br>
+                         my own creativity <br>
+                     </p>
+                 </div>
+             </div>
+
+                  <div class="card"  id="g">
+                 <div class="card-body">
+                     <p><b>football</b> <br>
+                         I was the captain of <br>
+                         the school team. <br>
+                     </p>
+                 </div>
+             </div>
 
 
-<div id="five">5</div>
 
 
-<div id="six">6</div>
+
+</div>
+<!--contact form-->
+<div id="five">
+    <div class="container-fluid">
+         <form>
+               <div class="mb-3">
+
+             <label for="name" class="form-label">name</label>
+
+             <input type="text" class="form-control" id="name" placeholder="Enter Name" name="Name">
+
+         </div>
+
+         <div class="mb-3 mt-3">
+
+             <label for="email" class="form-label">email:</label>
+
+             <input type="email" class="form-control" id="email" placeholder="Email" name="email">
+
+         </div>
+
+
+
+         <div class="mb-3">
+
+             <label for="phone number" class="form-label">Phone Number</label>
+
+             <input type="number" class="form-control" id="phone number" placeholder="Enter Phone Number" name="date">
+
+         </div>
+
+
+
+
+         <button type="submit" class="btn btn-primary">Submit</button>
+
+         <button type="reset" class="btn btn-danger">Reset Form</button>
+
+     </form>
+
+    </div>
+</div>
+
+
+
+<div class=container-fluid id="six">
+    <!-- Add icon library -->
+
+<!-- Add font awesome icons -->
+    <div id="s"><a href="https://www.gmail.com" class="fa fa-square-envelope">Gmail</a>
+</div>
+    <div id="t">    <a href="https://www.outlook.com" class="fa fa-address-book">Outlook</a>
+</div>
+
+</div>
 
 
 
